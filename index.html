@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Awesome Dog Pictures</title>
+  <link rel="shortcut icon" href="">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Awesome Dog Pictures</h1>
+
+    <form>
+        <label for="number-choice">How Many Picture do You Want ?</label>
+        <input id="number-choice" name="number-choice" type="number" min="1" max="50" value="3" required />
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <section class="results hidden">
+      <h2>Heres' Your Awesome Dog Pictures, Enjoy !</h2>
+      <div class="photo">
+        <img class="results-img" alt="placeholder">
+      </div>
+    </section>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
